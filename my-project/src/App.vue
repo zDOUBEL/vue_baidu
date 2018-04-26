@@ -18,14 +18,16 @@
                 </div>
                 <div class="mainList">
                     <div class="listnav">
-                        <i class="icon icon_drop"></i>我的导航(
+                        <div class="btnLeft">
+                          <i class="icon icon_drop"></i>我的导航(
                         <span id="size">0</span>)
+                        </div>
                         <div class="btnlist">
                             <a class="addbtn" v-on:click="clickShow">添加</a>
                             <a class="bianjibtn">编辑</a>
                             <!-- 不同的路径显示不同的切换 -->
                             <router-link to="/"  class="classicon">分类显示</router-link>
-                            <router-link to="fenlei"  class="classicon">列表显示</router-link>
+                            <router-link to="/fenlei"  class="classicon">列表显示</router-link>
                         </div>
                     </div>
                     <div class="xian" id="xian">
